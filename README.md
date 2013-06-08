@@ -1,4 +1,4 @@
 nsrepl
 ======
 
-AOLserver Read-Eval-Print-Loop accessible via a Unix Domain Socket
+AOLserver Read-Eval-Print-Loop accessible via a Unix Domain Socket.  Code adapted from nscp.
