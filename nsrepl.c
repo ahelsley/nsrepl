@@ -12,6 +12,10 @@
  *	file permissions.
  *
  */
+
+/* Newer Linux systems may not get struct ucred unless this is defined!: */
+#define _GNU_SOURCE
+
 #include <sys/types.h>
 #include <sys/mman.h>
 #include <sys/stat.h>
